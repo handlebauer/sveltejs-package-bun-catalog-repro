@@ -1,0 +1,22 @@
+{
+  "name": "sveltejs-package-repro",
+  "type": "module",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "catalogs": {
+      "svelte": {
+        "svelte": "^5.23.1",
+        "@sveltejs/package": "^2.3.7"
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
